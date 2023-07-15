@@ -98,7 +98,7 @@ export default defineComponent({
         .get("http://127.0.0.1:8000/api/users")
         .then(function (response) {
           users.value = response.data;
-          console.log(response.data);
+          // console.log(response.data);
           // console.log(response.data[0]['status_id']);
         })
         .catch(function (error) {
